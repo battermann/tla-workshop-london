@@ -1,0 +1,20 @@
+strict digraph DiskGraph {
+edge [colorscheme="paired12"]
+nodesep=0.35;
+subgraph cluster_graph {
+color="white";
+-2054800231901558988 [label="basket = {}",style = filled]
+-2054800231901558988 -> 7358492189023928419 [label="",color="2",fontcolor="2"];
+7358492189023928419 [label="basket = {\"lambda\"}"];
+-2054800231901558988 -> 7358492189023928419 [label="",color="2",fontcolor="2"];
+-2054800231901558988 -> 7358492189023928419 [label="",color="2",fontcolor="2"];
+7358492189023928419 -> 5613940179598533211 [label="",color="2",fontcolor="2"];
+5613940179598533211 [label="basket = {\"lambda\", \"Godel\"}"];
+7358492189023928419 -> 5613940179598533211 [label="",color="2",fontcolor="2"];
+5613940179598533211 -> -4571402121649940392 [label="",color="2",fontcolor="2"];
+-4571402121649940392 [label="basket = {\"lambda\", \"Godel\", \"expression\"}"];
+{rank = same; -2054800231901558988;}
+{rank = same; 7358492189023928419;}
+{rank = same; 5613940179598533211;}
+}
+}

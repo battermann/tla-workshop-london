@@ -1,0 +1,23 @@
+strict digraph DiskGraph {
+edge [colorscheme="paired12"]
+nodesep=0.35;
+subgraph cluster_graph {
+color="white";
+4121994679900803975 [label="light = \"red\"",style = filled]
+4121994679900803975 -> -2822058531602439482 [label="",color="2",fontcolor="2"];
+-2822058531602439482 [label="light = \"yellowred\""];
+4121994679900803975 -> 4121994679900803975 [style="dashed"];
+-2822058531602439482 -> 979873155858395890 [label="",color="2",fontcolor="2"];
+979873155858395890 [label="light = \"green\""];
+-2822058531602439482 -> -2822058531602439482 [style="dashed"];
+979873155858395890 -> -2302516121607751750 [label="",color="2",fontcolor="2"];
+-2302516121607751750 [label="light = \"yellow\""];
+979873155858395890 -> 979873155858395890 [style="dashed"];
+-2302516121607751750 -> 4121994679900803975 [label="",color="2",fontcolor="2"];
+-2302516121607751750 -> -2302516121607751750 [style="dashed"];
+{rank = same; 4121994679900803975;}
+{rank = same; -2822058531602439482;}
+{rank = same; 979873155858395890;}
+{rank = same; -2302516121607751750;}
+}
+}
